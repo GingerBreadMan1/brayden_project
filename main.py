@@ -115,4 +115,11 @@ elif x.upper() == "STRAIGHT":
                   print(f"MONTHS LATER....\n You are living in a remote area with {k}, Dr.Snow, his family, Shy Guy, and on occation other SCP's.\n You finally found peace, you haven't seen the Foundation in all that time, either you are really good at hiding, or they gave up.\n But that dosen't matter, even if they tried they would be dead the moment the stepped within a 500 mile raidius of this place.")
                   print("GAME COMPLETED\n That was such an amazing ending, don't you think?\n But there are many other endings and deaths in this game, maybe you ran into them, maybe you didn't, the only way to know what could have happened is to play again\n Hope to see you soon.")
         elif y.upper() == "RIGHT":
-          print("As you go down the right path,")
+          print("As you go down the right path,you hear something talking it sounds human but its muffled, almost like they are wearing a mask.\n As you approach the door the voice is coming from,and listen.\n Strange voice: You know Director, I could help you find this run away you have on your hands, if you untie me.\n Director: You know I can't do that 049.\n 049: You know I despise that name, call me...\n Director: I will call you 049, and 049 only.\n 049: Fine, your run away is outside the door, and might run any second.\n As soon as you hear him say that, you bolt down the hall and look for somewhere to hide.")
+          o = input("There are three doors but which one do you enter?\n Door#1, Door#2, or Door#3?")
+          if o.upper() == "DOOR#1":
+              print("You run to the first door and lock yourself in.\n In the room you find a hand gun and two spare clips.\n You wait till you hear no footsteps around your area, then you step into the hall.")
+          if o.upper() == "DOOR#2":
+              print("You run to the second door and lock yourself in.\n In the room you find a rifle with two spare mags.\n You wait till you hear no footsteps around your area, then you step into the hall.")
+          if o.upper() == "DOOR#3":
+              print("You run to the third door and lock yourself in.\n In the room you find a shotgun and a box of ammo.\n You wait till you hear no footsteps around your area, then you step into the hall.")
