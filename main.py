@@ -1,10 +1,10 @@
 print('This is Project Orange')
 print('This is a game that is strictly text based')
 v = input('What is your name?')
-print(f'Your name is {v}')
+print(f'Your name is {v}?')
 print(f'Nice to meet you, {v}!')
 print('Your jouney is about to start.')
-print('You wake up in a strange place, that looks like a hospital room.')
+print('You wake up in a strange place, it looks like a hospital room.')
 print('You look around and find yourself straped to a bed')
 print('You strugle to loosen the bindings, but it didnt work.')
 print('You hear a sound on the other side of the door.\n The doorknob starts to turn, then a person that looks like a doctor walks in.\n He has dark hair, fair skin, tall, dark blue eyes, and a big smile.')
@@ -34,7 +34,7 @@ if y.upper() == "RIGHT":
 elif y.upper() == "LEFT":
   print("You decided to go left.")
 print("As you go down the hall you start to notice a sound,it was quiet at first, hardly noticable, but it steadilly got louder.\n You try to identify the sound, it is coming from the other side of a wall, you look around and find a window to your right.\n You peer through the window, and you find a firing squad practicing for something, probably killing failed 'experiments'.")
-print("You try to sneak under the window, but step on something and, as a natural response, say something that might have gotten you killed.\n You start to hear the men in the room walk to the door, you start to run, just missing the door opening, the soldiers yell and sound the alarm.")
+print("You try to sneak under the window, but step on something and, as a natural response, say something that might have gotten you killed by your mother.\n You start to hear the men in the room walk to the door, you start to run, just missing the door opening, the soldiers yell and sound the alarm.")
 print("there is a cross section in the path, which way do you go?")
 x = input("Right, Left, or Straight")
 if x.upper() == "RIGHT":
@@ -52,14 +52,14 @@ elif x.upper() == "STRAIGHT":
     print("GAME OVER")
   elif b.upper() == "DOOR#1":
     print("You go through door#1, on the other side is a dog like creature in a cage, lips raised, it has crimson liquid dripping from its mouth.")
-    print("You look at the floor of the cage and see a bodie torn to shreads.\n You feel a sudden wave of nausea rush over you, soon after you throw up in a near by container.\n You(thinking): What is that thing? Is this the the ancient secret that they are trying to figure out?\n You look back at the beast, it had it's eyes locked on you the entire time, but it was sitting and was no longer bearing it fangs.\ It almost looked like a German Sheperd, if a German Sheperd had scales, snake eyes, and two tails.")
+    print("You look at the floor of the cage and see a body torn to shreads.\n You feel a sudden wave of nausea rush over you, soon after you throw up in a near by container.\n You(thinking): What is that thing? Is this the the ancient secret that they are trying to figure out?\n You look back at the beast, it had it's eyes locked on you the entire time, but it was sitting and was no longer bearing it fangs.\n It almost looked like a German Sheperd, if a German Sheperd had scales, snake eyes, and two tails.")
     print("You: I wonder if your not as agressive as you look.\n The creature layed down and made a werid chirp sound.")
     a = input("Approach the beast or Wait")
     if a.upper() == "WAIT":
       print("You decided to wait.\n 20 minutes later, the door burst open, soldiers shot the beast in surprise, like they did know it was there, but it bounced right off of it, but it made the beast mad, it almost ripped the bars off.\n They looked around and finally noticed you, without a word someone pulled the trigger of their gun, and killed you without a thought.")
       print("GAME OVER")
     elif a.upper() == "APPROACH THE BEAST":
-      print("As you approach the beast, it's ears perk up.\n You put your had just close enouph to the cage to were it could smell it.\n It sniffed your hand, then liked it, it felt kinda hot to the touch.\n It started to wag it's tails, and yet again it chirped.")
+      print("As you approach the beast, it's ears perk up.\n You put your had just close enouph to the cage to were it could smell it.\n It sniffed your hand, then licked it, it felt kinda hot to the touch.\n It started to wag it's tails, and yet again it chirped.")
       k = input("You see that it is a girl,you decided to name her, what do you want to name her?")
       print(f"You named her {k}")
       print("You try to find the lock to her cage and find a heavy duty lock that need a key.\n You look around and find a box on the wall with a big key inside.\n You try to open it and to your surprise it opened, a safety pin fell to the floor.\n You: I guess someone wanted to help her.")
@@ -111,5 +111,8 @@ elif x.upper() == "STRAIGHT":
                   print("GAME COMPLETED\n Hooray, you got one of the good endings, if you aren't saticfied with the outcome, play again at your own risk.")
                 elif q.upper() == "GO STRAIGHT TO THE GATE":
                   print("Dr.Snow: Good luck\n You: Thanks")
+                  print(f"You run to the exit, wondering if you should have brought Dr.Snow with you, when you reach the door you look out of a window next to it.\n As expected, there are five guards and two deactivated turrets.\n You prepare yourself for the battle ahead and burst through the door guns blazing, you kill two and {k} takes out another, the other two fired of a shot each.\n One of them missed but the other went straight through your knee, before you raise your gun to fight back, a gun is pressed on your head.\n Your heart sinks as you look up to see a woman holding the gun, when she speaks, you reconize her voice.\n Director: You only had to stay in your bed, you would have lived for a long time.\n In that moment, you feel like she might be right, what if you stayed in the bed?\n Just before she pulls the trigger, you hear gun fire, the Director looked around to see what the commotion was about, you take this chance to shoot her in the knee.\n She falls to the ground and you get up, pointing the gun at her.\n You:Any last words?\n The Director: We will find you eventually, no matter where you hide, you can't out run the Foundation.\n You: But I can kill the Foundation everytime they aproach me, {k}, or anyone with me.\n You pull the trigger, the Director spasmed, then went limp.\n You look around and see Dr.Snow in a car, bleeding from the back of his neck.\n You run over and ask him if he is ok.\n Dr.Snow: Had the chip removed, but otherwise I'm fine.\n You: Thats good.\n Dr.Snow: What are you waiting for, get in!\n You call {k} and she jumps in the back, you look around for Shy Guy, but he is gone.\n Dr.Snow: Don't worry about him, he ran off into the woods when his bindings were taken off.\n You get into the car, and you drove away from that mad house.")
+                  print(f"MONTHS LATER....\n You are living in a remote area with {k}, Dr.Snow, his family, Shy Guy, and on occation other SCP's.\n You finally found peace, you haven't seen the Foundation in all that time, either you are really good at hiding, or they gave up.\n But that dosen't matter, even if they tried they would be dead the moment the stepped within a 500 mile raidius of this place.")
+                  print("GAME COMPLETED\n That was such an amazing ending, don't you think?\n But there are many other endings and deaths in this game, maybe you ran into them, maybe you didn't, the only way to know what could have happened is to play again\n Hope to see you soon.")
         elif y.upper() == "RIGHT":
           print("As you go down the right path,")
