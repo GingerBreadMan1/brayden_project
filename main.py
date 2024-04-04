@@ -98,7 +98,27 @@ elif x.upper() == "STRAIGHT":
                 print("Before you leave to free Shy Guy, you turn off the turrets and make sure that is the only way out, and it is.")
                 print(f"You head back to the room you saw shy guy in, the 3 guards were taking a break from shooting it.\n As you open the door you draw the pistol and aim it at one of the guards, {k} tenses up sencing that there was going to be a fight.\n As you pull the trigger, {k} runs at the second one, before the third one could react he had a barbed tail stabed through his sternum.\n Shy Guy heard this and turned around ready for mass murder, but when he locked eyes with you he chilled out.\n ")
               elif q.upper() == "GO STRAIGHT TO THE GATE":
-                print("Before you leave to go to the gate, you turn off the turrets and make sure there were no more exits, and there wasn't.")
+                print(f"Before you leave to go to the gate, you turn off the turrets and make sure there were no more exits, and there wasn't.\nYou head to the exit and unexpectantly, you find no guards the way.\nIts almost like they just disappeared, or they are in a different part of the building, which is just as strange.\nYou make it to the exit and look out the small window in the door, there is two guards and not much else.\nYou creep out, not wanting to be noticed by them.\nYou sneak behind one of them and take them out, {k} takes out the other.\nYou stand in front of the gate and take a deep breath, finally the nightmare is over.")
+                w = input("You take one step, but stop, feeling like something is off.\nLike someone is watching you.\nDo you turn around or run through the gate?")
+                if w.upper() == "TURN AROUND":
+                    print(f"As you turn around, you see a woman standing there, and as she speaks, you instantly tense.\nDirector:Where do you think you're going, {v}.\nShe is a fairly tall woman, with white hair, but not with age she seems young, about as old as you, maybe a little older.\nShe stares at you with piercing red eyes, waiting for a response.")
+                    i = input("What do you do? Do you respond, open fire, or run?")
+                    if i.upper() == "RESPOND":
+                        print(f"You hesitate, but eventually say.\nYou:I'm leaving this god forsaken place, but I assume that you want to stop me.\nShe smiles, but its not a nice smile.\nDirector:You got that right, because you're to important to just let walk out the front door. So, we can do this the easy way, or the hard way.\nShe pulls out a gun but keeps it at her side.")
+                        u = input("What do you choose?\nEasy way or hard way?")
+                        if u.upper() == "EASY WAY":
+                            print(f"You put the gun in your hand down and walk to her.\nShe grins\nDirector:Good choice.\nShe puts handcuffs on you and brings you back inside, she put {k} in a cage and brought her inside with you.\nYou know that you probably won't see the light of day again, so you look one last time, before the door closes and locks behind you.")
+                            print(f"Thats the end, or is it?\nPlay again and get a different ending if you would like to, but otherwise, have a good one {v}.")
+                            print("GAME OVER")
+                        elif u.upper() == "HARD WAY":
+                            print(f"You look at the gun in your hand and tighten your grip.\nYou duck behind a small wall and fire at her.\nShe ducks behind a wall as well.\nDirector:Wrong choice {v}\nShe fires back and hits the wall that you are behind, you feel the vibrations and fire back.\nYour bullet grazes her shoulder and she hides behind her cover.\nYou spot {k} sneaking up behind the Director, all you hear is a scuffle and a gunshot, You run over and breath a sigh of relief seeing {k} emerge unharmed.\nYou go to the gate and walk out, finally free from the nightmare, and think about home.\n{k} walks next to you as you disappear into the sunrise, its nice to see the sun again.")
+                            print(f"You escaped, and with {k} as well, good job!\nPlay again if you want to see the other endings as well, otherwise, have a good one {v}.")
+                    elif i.upper() == "OPEN FIRE":
+                        print(f"You look at the gun in your hand and tighten your grip.\nYou duck behind a small wall and fire at her.\nShe ducks behind a wall as well.\nDirector:Ok {v}, have it your way!\nShe fires back and hits the wall that you are behind, you feel the vibrations and fire back.\nYour bullet grazes her shoulder and she hides behind her cover.\nYou spot {k} sneaking up behind the Director, all you hear is a scuffle and a gunshot, You run over and breath a sigh of relief seeing {k} emerge unharmed.\nYou go to the gate and walk out, finally free from the nightmare, and think about home.\n{k} walks next to you as you disappear into the sunrise, its nice to see the sun again.")
+                        print(f"You escaped, and with {k} as well, good job!\nPlay again if you want to see the other endings as well, otherwise, have a good one {v}.")
+                    elif i.upper() == "RUN":
+                        print(f"You turn around and run into the woods, trying to lose her.\nShe runs after you, shouting\nDirector:{v}, You can't run forever, we'll find you eventually!\nShe stops and calls someone, you continue to run and make it to the main road.")
+                elif w.upper() == "RUN THROUGH THE GATE":
                 
             elif t.upper() == "SPARE":
               print("You put the gun away and continue listening to what he has to say.")
